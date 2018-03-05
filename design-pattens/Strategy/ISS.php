@@ -1,4 +1,5 @@
 <?php
+namespace Strategy;
 
 class ISS implements Imposto
 {

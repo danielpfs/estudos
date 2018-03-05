@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: danielsoares
- * Date: 3/4/18
- * Time: 5:39 PM
- */
+namespace Strategy;
 
 class ICCC implements Imposto
 {

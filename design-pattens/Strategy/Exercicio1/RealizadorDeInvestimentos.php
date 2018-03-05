@@ -1,4 +1,5 @@
 <?php
+namespace Strategy\Exercicio1;
 
 class RealizadorDeInvestimentos
 {

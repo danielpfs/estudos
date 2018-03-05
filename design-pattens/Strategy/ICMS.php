@@ -1,4 +1,5 @@
 <?php
+namespace Strategy;
 
 class ICMS implements Imposto
 {

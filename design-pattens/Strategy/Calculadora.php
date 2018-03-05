@@ -1,4 +1,4 @@
-<?php
+<?php namespace Strategy;
 
 class Calculadora
 {

@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: danielsoares
- * Date: 3/4/18
- * Time: 4:58 PM
- */
+namespace ChainOfResponsibility;
 
 class Item
 {
@@ -15,5 +10,10 @@ class Item
     {
         $this->nome = $nome;
         $this->valor = $valor;
+    }
+
+    public function getNome()
+    {
+        return $this->nome;
     }
 }

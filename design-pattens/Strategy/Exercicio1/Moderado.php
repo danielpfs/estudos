@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: danielsoares
- * Date: 3/4/18
- * Time: 6:10 PM
- */
+namespace Strategy\Exercicio1;
 
 class Moderado implements Investimento
 {
