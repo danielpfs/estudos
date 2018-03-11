@@ -38,6 +38,14 @@ class HtmlBuilder
     }
 }
 
+/**
+ * Create a block on html
+ * 
+ * @param string $data    Data for print
+ * @param string $element Element of html
+ * 
+ * @return null
+ */
 function add($data, $element = null)
 {
     HtmlBuilder::add($data, $element);
