@@ -1,7 +1,8 @@
 <?php
 namespace TemplateMethod;
 
-class Orcamento {
+class Orcamento 
+{
     private $valor;
     private $itens = [];
 

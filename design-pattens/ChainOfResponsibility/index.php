@@ -4,9 +4,9 @@ require_once '../bootstrap.php';
 use ChainOfResponsibility\Orcamento;
 use ChainOfResponsibility\Calculadora;
 use ChainOfResponsibility\Item;
-use ChainOfResponsibility\Exercicio1\Conta;
-use ChainOfResponsibility\Exercicio1\Requisicao;
-use ChainOfResponsibility\Exercicio1\Formato;
+use ChainOfResponsibility\Exercicio\Conta;
+use ChainOfResponsibility\Exercicio\Requisicao;
+use ChainOfResponsibility\Exercicio\Formato;
 
 $calc = new Calculadora();
 $o = new Orcamento(500);
@@ -23,7 +23,7 @@ add('Desconto: '.$calc->desconto($o));
 
 build();
 
-// Exercicio 1
+// Exercicio
 
 $c = new Conta('Zé', 250);
 $r = new Requisicao(Formato::$PORCENTO);

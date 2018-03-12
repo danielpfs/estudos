@@ -2,13 +2,12 @@
 require_once '../bootstrap.php';
 use Decorator\Orcamento;   
 use Decorator\ICPP;
-use Decorator\IKCV;
 use Decorator\IHIT;
 use Decorator\ImpostoMuitoAlto;
-use Decorator\Exercicio1\Conta;
-use Decorator\Exercicio1\FiltroAberturaMesCorrente;
-use Decorator\Exercicio1\FiltroMenor100;
-use Decorator\Exercicio1\FiltroMaior500;
+use Decorator\Exercicio\Conta;
+use Decorator\Exercicio\FiltroAberturaMesCorrente;
+use Decorator\Exercicio\FiltroMenor100;
+use Decorator\Exercicio\FiltroMaior500;
 
 add('Decorator', 'h1');
 
@@ -23,7 +22,7 @@ add($impostoAlto->calcula($o1));
 
 build();
 
-add('Exercício 1', 'h1');
+add('Exercício', 'h2');
 
 $contas[] = new Conta(300, new DateTime('2015-02-20'));
 $contas[] = new Conta(50, new DateTime('2017-12-23'));

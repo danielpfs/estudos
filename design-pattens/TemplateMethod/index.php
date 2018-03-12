@@ -6,9 +6,9 @@ use TemplateMethod\ICPP;
 use TemplateMethod\IKCV;
 use TemplateMethod\IHIT;
 use TemplateMethod\Item;
-use TemplateMethod\Exercicio1\Conta;
-use TemplateMethod\Exercicio1\RelatorioSimples;
-use TemplateMethod\Exercicio1\RelatorioComplexo;
+use TemplateMethod\Exercicio\Conta;
+use TemplateMethod\Exercicio\RelatorioSimples;
+use TemplateMethod\Exercicio\RelatorioComplexo;
 
 add('Template Method', 'h1');
 
@@ -29,7 +29,7 @@ add($c->imposto($o, new IHIT()));
 
 build();
 
-echo '<h1>Exercício1</h1>';
+echo '<h2>Exercício1</h2>';
 
 $rs = new RelatorioSimples;
 $rc = new RelatorioComplexo;

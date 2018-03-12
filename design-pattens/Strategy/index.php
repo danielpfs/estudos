@@ -6,11 +6,11 @@ use Strategy\ICCC;
 use Strategy\ICMS;
 use Strategy\ISS;
 use Strategy\Orcamento;
-use Strategy\Exercicio1\Arrojado;
-use Strategy\Exercicio1\Conta;
-use Strategy\Exercicio1\Conservador;
-use Strategy\Exercicio1\Moderado;
-use Strategy\Exercicio1\RealizadorDeInvestimentos;
+use Strategy\Exercicio\Arrojado;
+use Strategy\Exercicio\Conta;
+use Strategy\Exercicio\Conservador;
+use Strategy\Exercicio\Moderado;
+use Strategy\Exercicio\RealizadorDeInvestimentos;
 
 
 $o = new Orcamento(1000);
@@ -24,7 +24,7 @@ add('ICCC: ' . $calculadora->imposto($o, new ICCC()));
 
 build();
 
-// --- Exercicio 1 ---
+// --- Exercicio ---
 add('--- Conta e Investimentos ---', 'h2');
 $rdi = new RealizadorDeInvestimentos();
 $c[] = new Conta(500);
